@@ -18,6 +18,6 @@ var net = require("net");
 
 var server = net.createServer(function (socket) {
      
-     
+     server.write("What page do you want to load ?")
      
 });
